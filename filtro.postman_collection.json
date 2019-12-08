@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "6bd1d71e-622a-4656-9214-366edd6a4e95",
+		"name": "filtro",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://177.67.49.218/powerai-vision-ingram/api/dlapis/ab043177-91a0-4727-8f42-f77a282a13b9",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "files",
+							"type": "file",
+							"src": "/home/willian/Downloads/2.jpeg"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://177.67.49.218/powerai-vision-ingram/api/dlapis/ab043177-91a0-4727-8f42-f77a282a13b9",
+					"protocol": "https",
+					"host": [
+						"177",
+						"67",
+						"49",
+						"218"
+					],
+					"path": [
+						"powerai-vision-ingram",
+						"api",
+						"dlapis",
+						"ab043177-91a0-4727-8f42-f77a282a13b9"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
