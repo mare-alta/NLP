@@ -2,12 +2,10 @@
 
 Modelo usado para classificação de gravidade de textos ao serem inseridos no banco de dados
 
-## Instação
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+## Instalação
 
 ```bash
-pip3 install flask
+pip3 install Flask
 pip3 install nltk
 ```
 
